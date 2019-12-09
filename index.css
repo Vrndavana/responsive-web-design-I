@@ -362,22 +362,101 @@ footer {
 /* Code for screen scaling - DEVICE CHANGE -  Code for screen scaling  */
 /* Code for screen scaling - DEVICE CHANGE -  Code for screen scaling  */
 
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
 
 
 
 
 @media (max-width: 800px) {
     body{
-        background-color: rgb(180, 224, 238);
+        /* background-color: rgb(225, 235, 238); */
+        /* width: 760px; */
     }
+
+
+    .servicebanner{
+        display:flex;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0 0 2% 15%;
+        
+    }
+
+    .Glogo {
+        padding: 0 0 2% 3%;
+    }
+
+
+        .content-block1 .content-chunk2 {
+            display:none;
+        }
+
+
+        p {
+            padding: 20px;
+        }
+
 
 
 }
 
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+/* 800px Device media properties  */
+
+
+
+
+
+
+
+
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
+/* 500px Device media properties  */
 
 
 @media (max-width: 500px) {
     body{
+        
         background-color: rgb(255, 255, 255);
     }
     
@@ -405,11 +484,24 @@ footer {
     
     }
 
+    .middle-img{
+        width:95%; 
+        padding: 0 0 0 6%;
+    }
+
+    p {
+        padding: 20px;
+    }
     .content-block1 .content-chunk2 {
         display:none;
     }
 
-
+    h2 {
+        padding: 2px;
+    }
+    .content-block1 .content-chunk2 {
+        display:none;
+    }
     
 
     .content-block1 {
@@ -459,6 +551,24 @@ footer {
     .content-block3 .content-chunk3 {
         font-size: 32px;
     }
+
+
+
+    h2 {
+        font-size: 32px;
+    }
+
+    address {
+        font-size: 32px;
+    }
+
+
+
+footer {
+    font-size: 32px;
+}
+
+
 
 
 }
