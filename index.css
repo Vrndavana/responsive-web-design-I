@@ -76,15 +76,23 @@ h1, h2, h3, h4, h5 {
 
 body {
 	width: 1000px;
-	margin: 0 auto;
+    margin: 0 auto;
+   
 }
 
 header {
 	height:10vh;
     margin:2%;
+    /* background-image:url('../image.binary.jfif');	 */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
 
+img .binary{
+    width: auto;
+}
 .servicebanner {
     display:flex;
 
@@ -168,8 +176,8 @@ a {
 	width: 100%;
 	display:flex;
 	justify-content: space-between;
-	align-items: center;	
-	
+    align-items: center;
+   
 }
 
 
@@ -393,6 +401,19 @@ footer {
         
     }
 
+.servbox {
+    
+    flex-direction: column;
+}
+
+.servicesimg1 img{
+	width:100%;
+	margin: 0 0 40px 0;
+	
+}
+.lastpart {
+    width:80%;
+}
     .Glogo {
         padding: 0 0 2% 3%;
     }
@@ -483,6 +504,17 @@ footer {
         
     
     }
+
+    .servicesimg1 img{
+        width:100%;
+        margin: 72% 0 40px 1.8%;
+        
+    }
+
+.Rpar {
+    font-size: 40px;
+}
+
 
     .middle-img{
         width:95%; 
